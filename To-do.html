@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do Лист</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" 
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1 class="todo-title">Мой To-Do Список</h1>
+
+    <div class="todo-input">
+      <input id="taskInput" type="text" placeholder="Что нужно сделать?" />
+      <button id="addBtn" class="add-btn">Добавить</button>
+    </div>
+
+    <ul id="todoList" class="todo-list"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
