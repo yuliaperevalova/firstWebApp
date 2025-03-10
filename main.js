@@ -82,6 +82,7 @@ const taskInput = document.getElementById('taskInput');
             renderTasks();
             // Очищаем поле ввода
             taskInput.value = '';
+            alert("Тудушка добавлена")
         }
     }
 
